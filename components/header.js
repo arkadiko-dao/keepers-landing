@@ -13,9 +13,9 @@ export default function Header() {
               <div className="flex justify-between flex-1">
                 <a className="flex items-center flex-shrink-0" href="/">
                   <img className="hidden w-auto h-8 lg:block sm:h-8" src="/logo.svg" width="42" height="32" alt="Arkadiko" />
-                  <div class="flex flex-col">
-                    <div class="ml-4 text-xl font-bold leading-none text-white align-middle font-headings">Arkadiko</div>
-                    <div class="ml-4 mt-0.5 text-base font-semibold leading-none tracking-widest text-indigo-400 uppercase">Keepers</div>
+                  <div className="flex flex-col">
+                    <div className="ml-4 text-xl font-bold leading-none text-white align-middle font-headings">Arkadiko</div>
+                    <div className="ml-4 mt-0.5 text-base font-semibold leading-none tracking-widest text-indigo-400 uppercase">Keepers</div>
                   </div>
 
                 </a>
