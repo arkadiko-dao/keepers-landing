@@ -1,20 +1,22 @@
 import Image from 'next/image'
 import contract from '../public/contract.png'
+import fund from '../public/fund.png'
+import manage from '../public/manage.png'
 
 
 const features = [
   {
-    description: 'Create a Keeper-compatible contract following the Developer Documentation.',
+    description: 'Make your contract Keepers-compatible following the documentation.',
     image: contract
   },
-  // {
-  //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-  //   image: contract
-  // },
-  // {
-  //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-  //   image: contract
-  // }
+  {
+    description: 'Fund your address in the Arkadiko Job Registry with sufficient DIKO and STX.',
+    image: fund
+  },
+  {
+    description: 'After your job is registered and funded, manage it in the app.',
+    image: manage
+  }
 ]
 
 const myLoader = ({ src, width, quality }) => {
@@ -29,10 +31,10 @@ export default function GetStarted() {
           Get started
         </h2>
         <div className="mt-12">
-          <div className="grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, index) => (
               <div key={feature.description} className="pt-6">
-                <div className="flow-root px-6 pb-8 border border-indigo-300 rounded-sm bg-gradient-to-tr from-indigo-100/20 to-transparent rounded-tr-2xl">
+                <div className="flow-root h-full px-6 pb-8 border border-indigo-300 rounded-sm bg-gradient-to-tr from-indigo-100/20 to-transparent rounded-tr-2xl">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center w-12 h-12 p-3 text-3xl font-semibold text-indigo-800 bg-indigo-300 rounded-sm shadow-indigo-200/80">

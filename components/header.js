@@ -22,7 +22,7 @@ export default function Header() {
 
                 <div className="hidden lg:ml-6 lg:flex lg:space-x-8 lg:items-center">
                   <div className="sm:flex sm:space-x-8 sm:h-full">
-                    <a className="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent text-gray-50 hover:border-gray-100 hover:text-white" href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer">
+                    <a className="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent text-gray-50 hover:border-gray-100 hover:text-white" href="https://docs.arkadiko.finance/keepers/introduction" target="_blank" rel="noopener noreferrer">
                       Docs
                       <ExternalLinkIcon className="block w-3 h-3 ml-2" aria-hidden="true" />
                     </a>
@@ -50,7 +50,7 @@ export default function Header() {
           <Disclosure.Panel className="bg-white lg:hidden">
             <div>
               <div className="pt-2 pb-3 space-y-1">
-                <a className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer">
+                <a className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" href="https://docs.arkadiko.finance/keepers/introduction" target="_blank" rel="noopener noreferrer">
                   Docs
                 </a>
 
