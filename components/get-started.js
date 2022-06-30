@@ -49,6 +49,8 @@ export default function GetStarted() {
                         src={feature.image}
                         layout="responsive"
                         quality={100}
+                        width={543}
+                        unoptimized={true}
                       />
                     </div>
                   </div>

@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <section id="hero" className="relative py-8 lg:relative sm:py-12 md:py-16 lg:py-32">
+    <section id="hero" className="relative flex items-center justify-center h-full py-8 lg:relative sm:py-12 md:py-16 lg:py-32">
       <div className="px-4 mx-auto max-w-7xl lg:px-8">
-        <div className="ml-auto">
+        <div>
           <h1 className="max-w-md mx-auto text-4xl font-extrabold tracking-tight text-center text-white font-headings sm:text-5xl md:max-w-3xl">
             <span className="block xl:inline">Decentralized smart contract automation for Stacks developers</span>
           </h1>
-          <p className="max-w-md mx-auto mt-3 text-lg text-center text-gray-200 sm:text-xl md:mt-5 md:max-w-3xl">
+          <p className="max-w-md mx-auto mt-3 text-lg text-center text-gray-200 sm:text-xl md:mt-5 md:max-w-xl">
             Arkadiko Keepers is the ultimate solution for automating smart contract functions.
           </p>
           <div className="mt-10 sm:flex sm:justify-center">

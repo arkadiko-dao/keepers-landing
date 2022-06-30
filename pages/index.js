@@ -49,6 +49,7 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             quality={100}
+            unoptimized={true}
           />
         </div>
         <div className="fixed w-screen h-screen overflow-hidden" style={{zIndex: "-1"}}>
@@ -59,6 +60,7 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             quality={100}
+            unoptimized={true}
           />
         </div>
 
