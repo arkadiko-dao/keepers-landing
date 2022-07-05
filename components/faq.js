@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "How do Keepers work?",
-    answer: "You can read full documentation on https://docs.arkadiko.finance/keepers/introduction but in short everyone can deploy a job that should be ran recurringly. Each block that is mined, a network of keepers will check whether your job should be ran or not. If it should be ran, a keeper will execute it and charge your account for the execution."
+    answer: "You can read full documentation on <a class='underline' target='_blank' rel='noopener noreferrer' href='https://docs.arkadiko.finance/keepers/introduction'>https://docs.arkadiko.finance/keepers/introduction</a> but in short everyone can deploy a job that should be ran recurringly. Each block that is mined, a network of keepers will check whether your job should be ran or not. If it should be ran, a keeper will execute it and charge your account for the execution."
   }
 ]
 
@@ -38,7 +38,7 @@ export default function Faq() {
               {faqs.map((faq) => (
                 <div key={faq.question}>
                   <p className="text-lg font-medium leading-6 text-gray-900">{faq.question}</p>
-                  <p className="mt-2 text-base text-gray-500" dangerouslySetInnerHTML={{__html: faq.answer}} />
+                  <p className="mt-2 text-base text-gray-500 break-words" dangerouslySetInnerHTML={{__html: faq.answer}} />
                 </div>
               ))}
             </div>
