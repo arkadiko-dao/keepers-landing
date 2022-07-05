@@ -8,22 +8,22 @@ import {
 const features = [
   {
     name: 'A custom computation',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Integrate any custom logic that checks whether your job should run or not.',
     icon: TerminalIcon,
   },
   {
-    name: 'Any Chainlink oracle data',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Any oracle data',
+    description: 'Would you like to trigger your contract based on some external data? Possible through an Oracle integration!',
     icon: SparklesIcon,
   },
   {
     name: 'Any on-chain activity',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: "Waiting for your favorite NFT to drop below a price point or any other on-chain activity? No worries, we've got you covered!",
     icon: CubeTransparentIcon,
   },
   {
     name: 'Block number',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Launch your job and simply run it when a certain block number hits. Easy as that!',
     icon: ServerIcon,
   }
 ]

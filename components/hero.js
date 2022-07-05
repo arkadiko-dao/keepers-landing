@@ -12,15 +12,15 @@ export default function Hero() {
           <div className="mt-10 sm:flex sm:justify-center">
             <div>
               <div className="rounded-md shadow">
-                <a href="https://app.arkadiko.finance" rel="noopener noreferrer" className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  Run you first job
+                <a href="https://shrl.ink/gYDt" rel="noopener noreferrer" className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Sign up for Beta
                 </a>
               </div>
             </div>
 
             <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
-              <a href="#get-started" className="flex items-center justify-center w-full px-8 py-3 text-base text-white bg-transparent border border-transparent rounded-md hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                Get started
+              <a href="#triggers" className="flex items-center justify-center w-full px-8 py-3 text-base text-white bg-transparent border border-transparent rounded-md hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Learn More
               </a>
             </div>
             <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">

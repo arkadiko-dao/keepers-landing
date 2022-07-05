@@ -6,15 +6,15 @@ import manage from '../public/manage.png'
 
 const features = [
   {
-    description: 'Make your contract Keepers-compatible following the documentation.',
+    description: 'Build your job as a Clarity smart contract and make it Keepers-compatible following the documentation.',
     image: contract
   },
   {
-    description: 'Fund your address in the Arkadiko Job Registry with sufficient DIKO and STX.',
+    description: 'Fund your address in the Arkadiko Job Registry with sufficient DIKO and STX. Each execution costs 10 DIKO plus a STX gas fee.',
     image: fund
   },
   {
-    description: 'After your job is registered and funded, manage it in the app.',
+    description: 'After your job is registered and funded, manage it in the Keepers app to follow up on execution.',
     image: manage
   }
 ]

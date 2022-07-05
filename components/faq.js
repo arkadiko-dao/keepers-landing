@@ -1,8 +1,20 @@
 const faqs = [
   {
-    question: "Not your keys, not your coins?",
-    answer: "When in doubt, zoom out."
+    question: "When is Keepers launching?",
+    answer: "Arkadiko Keepers is currently in closed beta and will be open for public use at the end of Q3 2022!"
   },
+  {
+    question: "Is Keepers safe?",
+    answer: "The Arkadiko Keepers contracts are currently not audited! However, they have been peer reviewed by several Stacks members. Every job is written by individual people or teams, so you cannot assume that a job is inherently safe."
+  },
+  {
+    question: "What can I do with Arkadiko Keepers?",
+    answer: "You can automate smart contract execution recurringly based on any kind of logic. Whether it is arbitrage, buying an NFT when it drops under a certain price, automatically claiming yield farming rewards or executing some protocol logic... All of it is possible!"
+  },
+  {
+    question: "How do Keepers work?",
+    answer: "You can read full documentation on https://docs.arkadiko.finance/keepers/introduction but in short everyone can deploy a job that should be ran recurringly. Each block that is mined, a network of keepers will check whether your job should be ran or not. If it should be ran, a keeper will execute it and charge your account for the execution."
+  }
 ]
 
 export default function Faq() {

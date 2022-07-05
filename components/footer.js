@@ -50,6 +50,15 @@ export default function Footer() {
             </div>
           </div>
           <div>
+            <h3 className="text-sm font-semibold tracking-wider text-white uppercase font-headings">Protocol</h3>
+            <ul className="mt-4 space-y-4">
+              <li><a href="https://docs.arkadiko.finance/keepers/introduction" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
+              <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
+              <li><a href="https://arkadiko.finance/brand" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Brand</a></li>
+              <li><a href="https://arkadiko.finance/press-review" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Press</a></li>
+            </ul>
+          </div>
+          <div>
             <h3 className="text-sm font-semibold tracking-wider text-white uppercase font-headings">Support</h3>
             <ul className="mt-4 space-y-4">
               <li><a href="https://twitter.com/ArkadikoFinance" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Twitter</a></li>
