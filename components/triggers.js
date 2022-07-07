@@ -38,8 +38,8 @@ export default function Triggers() {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature) => (
-              <div key={feature.name} className="pt-6">
-                <div className="flow-root px-6 pb-8 rounded-sm bg-gradient-to-br from-gray-50 to-indigo-300 rounded-br-2xl">
+              <div key={feature.name} className="pt-6 md:h-full">
+                <div className="flow-root px-6 pb-8 rounded-sm md:h-full bg-gradient-to-br from-gray-50 to-indigo-300 rounded-br-2xl">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center p-3 rounded-sm shadow-lg shadow-slate-500/80 bg-slate-900">
