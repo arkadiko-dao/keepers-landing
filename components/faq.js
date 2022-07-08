@@ -14,6 +14,10 @@ const faqs = [
   {
     question: "How do Keepers work?",
     answer: "You can read full documentation on <a class='underline' target='_blank' rel='noopener noreferrer' href='https://docs.arkadiko.finance/keepers/introduction'>https://docs.arkadiko.finance/keepers/introduction</a> but in short everyone can deploy a job that should be ran recurringly. Each block that is mined, a network of keepers will check whether your job should be ran or not. If it should be ran, a keeper will execute it and charge your account for the execution."
+  },
+  {
+    question: "Can I run a decentralised keeper and earn DIKO?",
+    answer: "Certainly! Our keeper network should be expanded continously to become more decentralised. Running a keeper is fairly straightforward and documentation will be available soon."
   }
 ]
 
